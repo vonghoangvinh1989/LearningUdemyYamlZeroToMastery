@@ -1,0 +1,22 @@
+# Development Application Details
+---
+applications:
+  - cards:
+      name: EasyCards
+      technology: Python
+      team-size: 12
+  - accounts:
+      name: EasyAccounts
+      technology: Java
+      team-size: 50
+---
+# Product Application Details
+applications:
+  - loans:
+      name: EasyLoans
+      technology: Ruby
+      team-size: 8
+  - marketing:
+      name: EasyMarketing
+      technology: R
+      team-size: 4

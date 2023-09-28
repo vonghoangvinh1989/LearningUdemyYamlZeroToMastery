@@ -1,0 +1,38 @@
+definitions:
+  days:
+    - weekday: &working
+        wakeup: 6:00 AM
+        activites:
+          - workout
+          - meetings
+          - work
+          - sleep
+        sleeptime: 10:00 PM
+    - weekend: &holiday
+        wakeup: 8:00 AM
+        activites:
+          - workout
+          - playing
+          - movies
+          - friends
+          - sleep
+        sleeptime: 12:00 AM
+
+schedules:
+  days:
+    weekdays:
+      - monday: *working
+      - tuesday: *working
+      - wednesday: *working
+      - thursday: *working
+      - friday:
+          <<: *working # indicate to get from working and have some minor changes
+          sleeptime: 12:00 AM
+          netflix: true
+    weekends:
+      - saturday: *holiday # indicate to get exactly from holiday
+        netflix: true
+      - sunday:
+          <<: *holiday
+          sleeptime: 10 PM
+# <<: to use to indicate that we will get content from anchor and have some change or override 1 or more key value

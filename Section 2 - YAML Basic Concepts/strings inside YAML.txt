@@ -1,0 +1,21 @@
+1) How to control the end of string with new line
+- : minus used when we do not want the new line at the end, for example in default we have 'application/n', 
+use '-' we will have 'application.'
+    For example:
+        about: |-
+        EasyBank
+        is an 
+        Bank based
+        application.
+
++ : plus used when we want to keep the multiple new line at the end, for example in default we have 'application/n', use '+' and enter multiple line in string, 
+we will have 'application./n/n/n' which depends on how many new line we enter
+    For example:
+        about: |+
+        EasyBank
+        is an 
+        Bank based
+        application.
+
+
+        

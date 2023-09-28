@@ -1,0 +1,5 @@
+1) To tag data as certain type, simple include !![typeName] before the value
+    For example:
+        negative: !!int -16
+        positive-float: !!float 16.
+        

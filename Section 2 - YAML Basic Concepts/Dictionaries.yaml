@@ -1,0 +1,14 @@
+applications:
+  - cards:
+      name: EasyCards # space really important here, make sure using two space after the word 'cards'
+      technology: Python
+      team-size: 12
+  - accounts:
+      name: EasyAccounts
+      technology: Java
+      team-size: 50
+  - loans:
+      name: EasyLoans
+      technology: Ruby
+      team-size: 8
+# NOTE: indent after the word content

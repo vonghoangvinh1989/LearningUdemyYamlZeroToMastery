@@ -1,0 +1,14 @@
+--- # indicate the beginning of YAML file, for readibility
+YAML is a superset of JSON: !!bool true
+Pluto is a planet: !!bool false
+negative: !!int -16
+zero: !!int 0
+positive: !!int 30
+negative-float: !!float -3.14
+zero-float: !!float 0.
+positive-float: !!float 16.
+sampleNumString: !!str 8.14
+sampleString: !!str EasyBytes
+sampleDate: !!str 1989-06-16
+randomDate: !!timestamp 2001-12-15 2:59:43.10
+key with null value: !!null null
